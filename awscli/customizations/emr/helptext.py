@@ -183,8 +183,8 @@ INSTANCE_FLEETS = (
     ' type with the Spot purchasing option launches.</li>'
     '<li><code>[LaunchSpecifications]</code> - When <code>TargetSpotCapacity</code> is specified,'
     ' specifies the block duration and timeout action for Spot Instances.'
-    '<li><code>InstanceTypeConfigs</code> - Specifies up to five EC2 instance types to'
-    ' use in the instance fleet, including details such as Spot price and Amazon EBS configuration.</li>')
+    '<li><code>InstanceTypeConfigs</code> - Specify up to five EC2 instance types to'
+    ' use in the instance fleet, including details such as Spot price and Amazon EBS configuration. When you use an On-Demand or Spot Instance allocation strategy, you can specify up to thirty instance types per cluster node.</li>')
 
 INSTANCE_TYPE = (
     '<p>Shortcut parameter as an alternative to <code>--instance-groups</code>.'
