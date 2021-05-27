@@ -2,6 +2,120 @@
 CHANGELOG
 =========
 
+1.19.83
+=======
+
+* api-change:``iotsitewise``: IoT SiteWise Monitor Portal API updates to add alarms feature configuration.
+* api-change:``devicefarm``: Introduces support for using our desktop testing service with applications hosted within your Virtual Private Cloud (VPC).
+* api-change:``iotevents-data``: Releasing new APIs for AWS IoT Events Alarms
+* api-change:``fsx``: This release adds LZ4 data compression support to FSx for Lustre to reduce storage consumption of both file system storage and file system backups.
+* api-change:``iotevents``: Releasing new APIs for AWS IoT Events Alarms
+* api-change:``resource-groups``: Documentation updates for Resource Groups.
+* api-change:``sqs``: Documentation updates for Amazon SQS for General Availability of high throughput for FIFO queues.
+* api-change:``lightsail``: Documentation updates for Lightsail
+* api-change:``kendra``: Amazon Kendra now suggests popular queries in order to help guide query typing and help overall accuracy.
+
+
+1.19.82
+=======
+
+* api-change:``ec2``: This release removes resource ids and tagging support for VPC security group rules.
+
+
+1.19.81
+=======
+
+* api-change:``acm-pca``: This release enables customers to store CRLs in S3 buckets with Block Public Access enabled. The release adds the S3ObjectAcl parameter to the CreateCertificateAuthority and UpdateCertificateAuthority APIs to allow customers to choose whether their CRL will be publicly available.
+* api-change:``cloudfront``: Documentation fix for CloudFront
+* api-change:``qldb``: Support STANDARD permissions mode in CreateLedger and DescribeLedger. Add UpdateLedgerPermissionsMode to update permissions mode on existing ledgers.
+* api-change:``ec2``: This release adds resource ids and tagging support for VPC security group rules.
+* api-change:``outposts``: Add ConflictException to DeleteOutpost, CreateOutpost
+* api-change:``ecs``: The release adds support for registering External instances to your Amazon ECS clusters.
+* api-change:``mwaa``: Adds scheduler count selection for Environments using Airflow version 2.0.2 or later.
+
+
+1.19.80
+=======
+
+* api-change:``workspaces``: Adds support for Linux device types in WorkspaceAccessProperties
+* api-change:``iot``: This release includes support for a new feature: Job templates for AWS IoT Device Management Jobs. The release includes job templates as a new resource and APIs for managing job templates.
+* api-change:``transfer``: AWS Transfer Family customers can now use AWS Managed Active Directory or AD Connector to authenticate their end users, enabling seamless migration of file transfer workflows that rely on AD authentication, without changing end users' credentials or needing a custom authorizer.
+
+
+1.19.79
+=======
+
+* api-change:``logs``: This release provides dimensions and unit support for metric filters.
+* api-change:``quicksight``: Add new parameters on RegisterUser and UpdateUser APIs to assign or update external ID associated to QuickSight users federated through web identity.
+* api-change:``ce``: Introduced FindingReasonCodes, PlatformDifferences, DiskResourceUtilization and NetworkResourceUtilization to GetRightsizingRecommendation action
+* api-change:``compute-optimizer``: Adds support for 1) additional instance types, 2) additional instance metrics, 3) finding reasons for instance recommendations, and 4) platform differences between a current instance and a recommended instance type.
+* api-change:``ec2``: This release adds support for creating and managing EC2 On-Demand Capacity Reservations on Outposts.
+
+
+1.19.78
+=======
+
+* api-change:``s3``: Documentation updates for Amazon S3
+* api-change:``opsworkscm``: New PUPPET_API_CRL attribute returned by DescribeServers API; new EngineVersion of 2019 available for Puppet Enterprise servers.
+* api-change:``forecast``: Updated attribute statistics in DescribeDatasetImportJob response to support Long values
+* api-change:``efs``: Update efs command to latest version
+
+
+1.19.77
+=======
+
+* api-change:``iam``: Documentation updates for AWS Identity and Access Management (IAM).
+* api-change:``lexv2-models``: Update lexv2-models command to latest version
+* api-change:``personalize``: Added new API to stop a solution version creation that is pending or in progress for Amazon Personalize
+* api-change:``quicksight``: Add ARN based Row Level Security support to CreateDataSet/UpdateDataSet APIs.
+
+
+1.19.76
+=======
+
+* api-change:``iam``: Add pagination to ListUserTags operation
+* api-change:``eks``: Update the EKS AddonActive waiter.
+* api-change:``autoscaling``: With this release, customers can easily use Predictive Scaling as a policy directly through Amazon EC2 Auto Scaling configurations to proactively scale their applications ahead of predicted demand.
+* api-change:``kinesisanalyticsv2``: Kinesis Data Analytics now allows rapid iteration on Apache Flink stream processing through the Kinesis Data Analytics Studio feature.
+* api-change:``lightsail``: Documentation updates for Amazon Lightsail.
+* api-change:``rekognition``: Amazon Rekognition Custom Labels adds support for customer managed encryption, using AWS Key Management Service, of image files copied into the service and files written back to the customer.
+
+
+1.19.75
+=======
+
+* api-change:``license-manager``: AWS License Manager now supports periodic report generation.
+* api-change:``personalize``: Amazon Personalize now supports the ability to optimize a solution for a custom objective in addition to maximizing relevance.
+* api-change:``iotsitewise``: Documentation updates for AWS IoT SiteWise.
+* api-change:``apprunner``: AWS App Runner is a service that provides a fast, simple, and cost-effective way to deploy from source code or a container image directly to a scalable and secure web application in the AWS Cloud.
+* api-change:``compute-optimizer``: This release enables compute optimizer to support exporting  recommendations to Amazon S3 for EBS volumes and Lambda Functions.
+* api-change:``lexv2-models``: Update lexv2-models command to latest version
+* api-change:``support``: Documentation updates for support
+
+
+1.19.74
+=======
+
+* api-change:``neptune``: Neptune support for CopyTagsToSnapshots
+* api-change:``iotdeviceadvisor``: AWS IoT Core Device Advisor is fully managed test capability for IoT devices. Device manufacturers can use Device Advisor to test their IoT devices for reliable and secure connectivity with AWS IoT.
+* api-change:``sagemaker-a2i-runtime``: Documentation updates for Amazon A2I Runtime model
+* api-change:``mediaconnect``: MediaConnect now supports JPEG XS for AWS Cloud Digital Interface (AWS CDI) uncompressed workflows, allowing you to establish a bridge between your on-premises live video network and the AWS Cloud.
+* api-change:``elasticache``: Documentation updates for elasticache
+* api-change:``applicationcostprofiler``: APIs for AWS Application Cost Profiler.
+
+
+1.19.73
+=======
+
+* api-change:``imagebuilder``: Text-only updates for bundled documentation feedback tickets - spring 2021.
+* api-change:``macie2``: This release of the Amazon Macie API adds support for defining run-time, S3 bucket criteria for classification jobs. It also adds resources for querying data about AWS resources that Macie monitors.
+* api-change:``securityhub``: Updated descriptions to add notes on array lengths.
+* api-change:``es``: Adds support for cold storage.
+* api-change:``events``: Update InputTransformer variable limit from 10 to 100 variables.
+* api-change:``transcribe``: Transcribe Medical now supports identification of PHI entities within transcripts
+* api-change:``detective``: Updated descriptions of array parameters to add the restrictions on the array and value lengths.
+
+
 1.19.72
 =======
 
