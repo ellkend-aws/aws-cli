@@ -186,7 +186,7 @@ INSTANCE_FLEETS = (
     '<li><code>InstanceTypeConfigs</code> - Specify up to five EC2 instance types to'
     ' use in the instance fleet, including details such as Spot price and Amazon EBS configuration.'
     ' When you use an On-Demand or Spot Instance allocation strategy,'
-    ' you can specify up to thirty instance types per instance fleet.</li>')
+    ' you can specify up to 30 instance types per instance fleet.</li>')
 
 INSTANCE_TYPE = (
     '<p>Shortcut parameter as an alternative to <code>--instance-groups</code>.'
